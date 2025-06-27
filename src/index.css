@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap');
+@import "tailwindcss";
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
+@font-face {
+  font-family: 'WDXL Lubrifont SC';
+  src: url('/fonts/WDXLLubrifontSC.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lubrifont {
+  font-family: 'WDXL Lubrifont SC', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes fadeScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeScaleOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.fade-in {
+  animation: fadeScaleIn 300ms ease-out forwards;
+}
+
+.fade-out {
+  animation: fadeScaleOut 300ms ease-in forwards;
+  pointer-events: none; /* optional: prevent clicks while hiding */
+}
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shiny-text {
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+
