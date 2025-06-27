@@ -15,7 +15,7 @@ const Home = () => {
       >
         <h1 className="text-4xl font-bold mb-1 text-white">Prasad Kadam</h1>
         <p className="text-xl mb-3">CS Student</p>
-        <div className="mb-4 flex items-center text-sm justify-between">
+        <div className="mb-4 flex items-center text-sm justify-between flex-wrap">
           <p> <i className="ri-mail-line text-xl cursor-pointer pr-1"></i>kadamprasad1015@gmail.com</p>
           <p><i className="ri-map-pin-line px-1"></i>Pune, India</p>
         </div>
