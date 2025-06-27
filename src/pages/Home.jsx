@@ -53,7 +53,7 @@ const Home = () => {
           <Folder size={2} color="#fca311" className="custom-folder" items={[
             <i class="ri-code-ai-line text-xl"></i>,
             <i class="ri-terminal-window-line text-xl"></i>,
-            "MERN Dev • AI/ML Learner • 125+ Questions on LeetCode ",
+            "MERN Devloper • AI/ML Learner • 125+ LeetCode Questions",
           ]} />
         </div>
       </motion.div>
