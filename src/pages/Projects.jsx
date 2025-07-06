@@ -61,6 +61,33 @@ const Projects = () => {
       </AnimatedProject>
 
       {/* Project 2 */}
+      <AnimatedProject delay={0}>
+        <div className='sm:w-1/2 flex items-center justify-center sm:mr-2'>
+          <img src={img1} alt="" className="w-full h-full rounded-xl object-contain p-2" />
+        </div>
+        <div className='sm:w-1/2'>
+          <h1 className='text-xl font-semibold mb-2'>Social Media Platform</h1>
+          <p className='mb-3 text-sm text-[#A1A1AA]'>
+            This project includes secure login/signup functionality, user profile management, and the ability to post content.
+          </p>
+          <div className='flex gap-4 mb-4 flex-wrap'>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>EJS templating engine</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>TailwindCSS</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>JavaScript</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>Node.js</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>Express.js</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>MongoDB</button>
+            <button className='border border-[#A1A1AA] px-2 text-sm rounded-2xl'>JWT and Bcrypt</button>
+          </div>
+          <p className='text-xl font-semibold mb-3'>Key Features:</p>
+          <p className='mb-1 text-sm'><i className="ri-corner-down-right-line"></i> Secure Authentication System</p>
+          <p className='mb-1 text-sm'><i className="ri-corner-down-right-line"></i> User Profile Management</p>
+          <p className='mb-1 text-sm'><i className="ri-corner-down-right-line"></i>  Content Posting Functionality</p>
+         <a href="https://github.com/KadamPrasad01/social-media-platform" target="_blank" rel="noopener noreferrer" className='bg-white text-black px-4 py-1 rounded font-semibold mt-2 inline-block'>Github <i class="ri-skip-right-line"></i></a>
+        </div>
+      </AnimatedProject>
+
+      {/* Project 3 */}
       <AnimatedProject delay={0.2}>
         <div className='sm:w-1/2 flex items-center justify-center sm:mr-2'>
           <img src="/img2.png" alt="" className="w-full h-auto rounded-xl object-cover p-2" />
