@@ -63,7 +63,7 @@ const Projects = () => {
       {/* Project 2 */}
       <AnimatedProject delay={0}>
         <div className='sm:w-1/2 flex items-center justify-center sm:mr-2'>
-          <img src={img1} alt="" className="w-full h-full rounded-xl object-contain p-2" />
+          <img src="/miniproject1.png" alt="" className="w-full h-full rounded-xl object-contain p-2" />
         </div>
         <div className='sm:w-1/2'>
           <h1 className='text-xl font-semibold mb-2'>Social Media Platform</h1>
